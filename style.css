@@ -1,0 +1,39 @@
+#topo img {
+    max-width: 150px; 
+    max-height: 100px 
+}
+
+#inicio {
+    text-align: center;
+    line-height: 0px;
+}
+
+#inicio h1 {
+    font-size: 80px;
+}
+
+#inicio h1 span{
+   color: #7e00a4ee;
+}
+
+#sobre {
+    text-align: center;
+
+}
+
+#portifolio {
+    text-align: center;
+}
+section ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+}
+
+section ul li img {
+    width: 90px;
+    border-radius: 8px;
+}
