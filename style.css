@@ -1,9 +1,37 @@
+* {
+    box-sizing: border-box;
+
+    color: rgb(255, 255, 255);   
+}
+body {
+    background-image: url(./assets/bg.png);
+    margin: 0;
+}
+h2 {
+    color:rgb(205, 7, 226)
+}
+#topo {
+    border: red solid 1px;
+}
 #topo img {
+    padding-bottom: 2px;
     max-width: 150px; 
-    max-height: 100px 
+    max-height: 100px;
+    padding-bottom:0%;
+}
+#topo ul li {
+    list-style: none;
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    padding-top:  10px;
+    margin-left: 90%;
 }
 
 #inicio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: red solid 1px;
     text-align: center;
     line-height: 0px;
 }
@@ -16,24 +44,67 @@
    color: #7e00a4ee;
 }
 
+#button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: red solid 1px;
+    text-align: center;
+}
+
+#button button {
+    background: #7e00a4ee; 
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;
+}
+
 #sobre {
+    justify-content: center;
+    display: table;
+    border: red solid 1px;
+}
+#sobre h2 {
     text-align: center;
 
+}
+#sobre img {
+    position:relative;
+    left: 220px;  
+    max-width: 20%; 
+    max-height: 20%; 
+    border-radius: 20px;
+}
+.legenda {
+    position: flex;
+    top: 20px;
+    border: blue solid 1px;
+}
+
+.legenda p{
+    text-align: right;
 }
 
 #portifolio {
+
+    border: red solid 1px;
     text-align: center;
 }
-section ul {
-
+.image li {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+    justify-content: center;
+}
+.image img{
 
-    margin-top: 24px;
+        max-width: 20%;
+        max-height: 20%;
+        border-radius: 20px;
 }
 
-section ul li img {
-    width: 90px;
-    border-radius: 8px;
+#portifolio ul {
+
+    list-style: none;
+
 }
